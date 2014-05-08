@@ -53,7 +53,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
             "https://d2juqhyqspctxc.cloudfront.net/rpm/php-devel-5.2.9-1.x86_64.rpm",
             "https://d2juqhyqspctxc.cloudfront.net/rpm/php-gd-5.2.9-1.x86_64.rpm",
             "https://d2juqhyqspctxc.cloudfront.net/rpm/php-mbstring-5.2.9-1.x86_64.rpm",
-            "https://d2juqhyqspctxc.cloudfront.net/rpm/php-pdo-5.2.9-1.x86_64.rpm"
+            "https://d2juqhyqspctxc.cloudfront.net/rpm/php-pdo-5.2.9-1.x86_64.rpm",
+            "https://d2juqhyqspctxc.cloudfront.net/rpm/php-mysql-5.2.9-17.1.x86_64.rpm"
         ],
         :oracle_instantclient => {
             :download_base => "https://d2juqhyqspctxc.cloudfront.net/files",
